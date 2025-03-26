@@ -1,0 +1,13 @@
+[package]
+name = "cim"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] } # CLI parsing
+tokio = { version = "1", features = ["full"] } # Async support
+egui = "0.31"  # GUI framework
+eframe = "0.31" # GUI wrapper for egui
+ropey = "1.5" # Text buffer for editing
+winapi = { version = "0.3", features = ["windef", "winuser"] }
+syntect = "5.0"
