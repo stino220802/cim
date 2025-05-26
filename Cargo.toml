@@ -18,6 +18,9 @@ bytecount = "0.6.8"
 diff = "0.1"
 tui = "0.19.0"
 crossterm = "0.29.0"
+xi-rope = "0.3"
+xi-unicode = "0.3"
+chrono = "0.4"
 
 [profile.release]
 debug = true
